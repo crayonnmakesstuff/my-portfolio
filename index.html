@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ryaan Khan</h1>
+    <p>Web Developer</p>
+  </header>
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3 (still learning)</li>
+      <li>JavaScript (still learning)</li>
+      <li>C++ (still learning)</li>
+    </ul>
+  </section>
+  
+  <section id="hire-me">
+    <h2>Hire Me</h2>
+    <p>If you need a really bad student-made website for your business, feel free to contact me!</p>
+    <button onclick="toggleContactForm()">Contact Me</button>
+    <div id="contact-form" style="display: none;">
+      <h3>Contact Form</h3>
+      <form id="form">
+        <input type="text" id="name" placeholder="Your Name" required><br>
+        <input type="email" id="email" placeholder="Your Email" required><br>
+        <textarea id="message" placeholder="Your Message" required></textarea><br>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 child- uh i mean Ryaan Khanp>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
